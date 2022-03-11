@@ -52,7 +52,7 @@ public class MainMenu {
 		System.out.println("Press 4 For Going Back To Main Menu");
 		String subOption = sc.nextLine();
 		if(subOption.equalsIgnoreCase("1")) {
-			System.out.println("Kindly Enter The Directory Where File Needs To Be Added (Example:  F:/sooraj ): ");
+			System.out.println("Kindly Enter The Directory Where File Needs To Be Added (Example:  F:/users ): ");
 			String path = sc.nextLine();
 			System.out.println("Please Provide The File Name  With Extension: ");
 			String fileName = sc.nextLine();
