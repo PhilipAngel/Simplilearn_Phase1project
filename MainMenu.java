@@ -61,7 +61,7 @@ public class MainMenu {
 			subMenu();
 		}
 		else if(subOption.equalsIgnoreCase("2")) {
-			System.out.println("Kindly Enter The Directory Where File Needs To Be Deleted From (Example:  F:/sooraj ): ");
+			System.out.println("Kindly Enter The Directory Where File Needs To Be Deleted From (Example:  F:/users ): ");
 			String path = sc.nextLine();
 			System.out.println("Please provide the file name to delete with extension: ");
 			String fileName = sc.nextLine();
@@ -70,7 +70,7 @@ public class MainMenu {
 			subMenu();
 		}
 		else if(subOption.equalsIgnoreCase("3")) {
-			System.out.println("Kindly Enter The Directory Where File Needs To Be Searched (Example:  F:/sooraj ): ");
+			System.out.println("Kindly Enter The Directory Where File Needs To Be Searched (Example:  F:/users ): ");
 			String path = sc.nextLine();
 			System.out.println("Please provide the file name to be searched with extension: ");
 			String fileName = sc.nextLine();
